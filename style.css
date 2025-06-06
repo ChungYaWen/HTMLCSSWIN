@@ -468,17 +468,6 @@ h2{
   .banner-photo, .banner-introduce {
     width: 100%;
   }
-}
-@media (max-width: 375px) {
-    .connect-container{
-        align-items: center;
-    }
-    html,body, .container,.container-list  {
-        max-width:375px;
-    }
-  .footer{
-    font-size: 16px;
-  }
   .connect-container {
         display: none;
     }
@@ -512,5 +501,17 @@ h2{
         width: 100%;
         padding-right: 0;
     }
+}
+@media (max-width: 375px) {
+    .connect-container{
+        align-items: center;
+    }
+    html,body, .container,.container-list  {
+        max-width:375px;
+    }
+  .footer{
+    font-size: 16px;
+  }
+  
 
 }
